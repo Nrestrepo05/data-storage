@@ -1,0 +1,45 @@
+:root {
+  --paleBlue: hsl(243, 100%, 93%);
+  --grayishBlue: hsl(229, 7%, 55%);
+  --darkBlue: hsl(228, 56%, 26%);
+  --veryDarkBlue: hsl(229, 57%, 11%);
+  --Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  background-image: url('/images/bg-mobile.svg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  padding: 40px 0 30px 40px;
+  width: 80%;
+  border-radius: 10px 105px 10px 10px;
+  background-color: var(--darkBlue);
+}
+
+.main-card__nav {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.main-card__nav li {
+  padding: 0;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  width: 45px;
+  background-color: var(--veryDarkBlue);
+  border-radius: 7px;
+  margin-right: 12px;
+
+}
+
