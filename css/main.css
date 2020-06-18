@@ -15,7 +15,7 @@
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
-  background-image: url('/images/bg-mobile.svg');
+  background-image: url('../images/bg-mobile.svg');
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
