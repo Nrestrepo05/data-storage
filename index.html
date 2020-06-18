@@ -1,22 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Data Storage</title>
-  <link rel="stylesheet" href="./css/main.css">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
-  <section class="main">
-    <div class="main-card">
-      <img src="./images/logo.svg" alt="" class="main-card__logo">
-      <ul class="main-card__nav">
-        <li><img src="./images/icon-document.svg" alt="document" class="main-card__nav--img"></li>
-        <li><img src="./images/icon-folder.svg" alt="folder" class="main-card__nav--img"></li>
-        <li><img src="./images/icon-upload.svg" alt="logo" class="main-card__nav--img"></li>
-      </ul>
-    </div>
-  </section>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Storage</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="main">
+      <div class="main-card">
+        <img src="./images/logo.svg" alt="" class="main-card__logo" />
+        <ul class="main-card__nav">
+          <li>
+            <img
+              src="./images/icon-document.svg"
+              alt="document"
+              class="main-card__nav--img"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/icon-folder.svg"
+              alt="folder"
+              class="main-card__nav--img"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/icon-upload.svg"
+              alt="logo"
+              class="main-card__nav--img"
+            />
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="info">
+      <div class="info-card">
+        <h1 class="info-card__title">You've used <strong>815 GB</strong> of your storage</h1>
+        <div class="info-card__loader">
+          <div class="info-card__loader--bar"></div>
+          <div class="info-card__loader--info">
+            <p class="info-card__loader--info--min"><strong>0 GB</strong></p>
+            <p class="info-card__loader--info--max"><strong>1000 GB</strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="info-remaining">
+        <p><strong>185</strong></p>
+        <p>GB Left</p>
+      </div>
+    </section>
+  </body>
 </html>
